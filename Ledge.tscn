@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="Ledge" type="CSGCombiner"]
+use_collision = true
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 )
+width = 14.6562
+height = 3.37334
+depth = 3.47843
+
+[node name="CSGBox2" type="CSGBox" parent="CSGBox"]
+transform = Transform( 1, 0, 0, 0, 0.760783, -0.649004, 0, 0.649004, 0.760783, 6, -2.52759, 4.74144 )
+width = 2.26837
+height = 2.50239
+depth = 10.4794
+
+[node name="CSGBox3" type="CSGBox" parent="CSGBox"]
+transform = Transform( 1, 0, 0, 0, 0.760783, -0.649004, 0, 0.649004, 0.760783, -6, -2.52759, 4.74144 )
+width = 2.26837
+height = 2.50239
+depth = 10.4794

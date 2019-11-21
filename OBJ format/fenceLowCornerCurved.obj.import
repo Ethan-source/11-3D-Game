@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fenceLowCornerCurved.obj-d2f73573cb1ab22cb092347e72ded83d.mesh"
+
+[deps]
+
+files=[ "res://.import/fenceLowCornerCurved.obj-d2f73573cb1ab22cb092347e72ded83d.mesh" ]
+
+source_file="res://OBJ format/fenceLowCornerCurved.obj"
+dest_files=[ "res://.import/fenceLowCornerCurved.obj-d2f73573cb1ab22cb092347e72ded83d.mesh", "res://.import/fenceLowCornerCurved.obj-d2f73573cb1ab22cb092347e72ded83d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

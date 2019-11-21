@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/coinSilver.obj-83ddafbb3d668e6aa4ddf30462f57914.mesh"
+
+[deps]
+
+files=[ "res://.import/coinSilver.obj-83ddafbb3d668e6aa4ddf30462f57914.mesh" ]
+
+source_file="res://OBJ format/coinSilver.obj"
+dest_files=[ "res://.import/coinSilver.obj-83ddafbb3d668e6aa4ddf30462f57914.mesh", "res://.import/coinSilver.obj-83ddafbb3d668e6aa4ddf30462f57914.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

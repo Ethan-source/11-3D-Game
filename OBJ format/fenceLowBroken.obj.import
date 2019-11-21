@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fenceLowBroken.obj-7a9a17c3acdd952d062628fabffee9ae.mesh"
+
+[deps]
+
+files=[ "res://.import/fenceLowBroken.obj-7a9a17c3acdd952d062628fabffee9ae.mesh" ]
+
+source_file="res://OBJ format/fenceLowBroken.obj"
+dest_files=[ "res://.import/fenceLowBroken.obj-7a9a17c3acdd952d062628fabffee9ae.mesh", "res://.import/fenceLowBroken.obj-7a9a17c3acdd952d062628fabffee9ae.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
