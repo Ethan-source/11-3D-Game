@@ -6,8 +6,8 @@
 [ext_resource path="res://BlockLarge.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Ramp.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Floating Object.tscn" type="PackedScene" id=6]
-[ext_resource path="res://Coins.tscn" type="PackedScene" id=7]
-[ext_resource path="res://Flowers.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Flowers.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Coins.tscn" type="PackedScene" id=8]
 
 [node name="CSGRoom" type="Spatial"]
 transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -34.5353, 0, -14 )
@@ -22,6 +22,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, -2, 3.99998 )
 
 [node name="Character" parent="Ground" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 3, 0 )
+collision_layer = 2
 
 [node name="Platforms" type="Spatial" parent="."]
 editor/display_folded = true
@@ -329,11 +330,49 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.99996, 3, -1.00004 )
 [node name="Floating Object" parent="Platforms/Floating Orbs" instance=ExtResource( 6 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.99995, 3, -3.00005 )
 
-[node name="Coins" parent="." instance=ExtResource( 7 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, 6 )
-
-[node name="Flowers" parent="." instance=ExtResource( 8 )]
+[node name="Flowers" parent="." instance=ExtResource( 7 )]
 transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 2, 7, 2, 4.76837e-06 )
 
-[node name="Flowers2" parent="." instance=ExtResource( 8 )]
+[node name="Flowers2" parent="." instance=ExtResource( 7 )]
 transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 2, 7, 0, 4 )
+
+[node name="Spatial" type="Spatial" parent="."]
+
+[node name="Coins" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, 6 )
+
+[node name="Coins2" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 5, -0.999998 )
+
+[node name="Coins3" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 5, 1.90735e-06 )
+
+[node name="Coins4" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 5, 1.90735e-06 )
+
+[node name="Coins5" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 5, -0.999998 )
+
+[node name="Coins6" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 5, -2 )
+
+[node name="Coins7" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 5, -2 )
+
+[node name="Coins8" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 5, -3 )
+
+[node name="Coins9" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 5, -3 )
+
+[node name="Coins10" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 5, -4 )
+
+[node name="Coins11" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 5, -4 )
+
+[node name="Coins12" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 5, -5 )
+
+[node name="Coins13" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 5, -5 )
