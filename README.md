@@ -1,1 +1,3 @@
 # 11-3D-Game
+
+The purpose of this project was to demonstrate that I was able to create a "3D Game" in the Godot Engine. For my project, I designed a platformer level where you control a ball and pickup coins. Throughout the process of creating this assignment, I have furthered my understanding of the Godot engine, the intricities of Nodes, and how to make coins dissapear with contact with the character. 
