@@ -11,3 +11,7 @@ func _input(event):
 			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 			get_tree().set_input_as_handled()
 
+
+
+func _on_Spikes_body_entered(body):
+	pass # Replace with function body.
